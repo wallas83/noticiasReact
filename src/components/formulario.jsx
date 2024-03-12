@@ -27,13 +27,13 @@ const {categoria, handleChangeCategoria} = useNoticias()
                         ))
                     }
                 </Select>
-                <Box sx={{marginTop:4}}>
+                {/* <Box sx={{marginTop:4}}>
                 <Button
                 fullWidth
                 variant='contained'
                 color='primary'
                 >Buscar Noticias</Button>
-                </Box>
+                </Box> */}
                
             </FormControl>
         </form>

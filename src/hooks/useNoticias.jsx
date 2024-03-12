@@ -4,10 +4,14 @@ import { NoticiasContext } from "../context/NoticiasProvider"
 
 export function useNoticias() {
 
-     const {categoria,handleChangeCategoria} = useContext(NoticiasContext)
+     const {categoria,handleChangeCategoria, noticias,totalNoticias,pagina,handleChangePagina} = useContext(NoticiasContext)
 
     return({
         categoria,
-        handleChangeCategoria
+        handleChangeCategoria,
+        noticias,
+        totalNoticias,
+        pagina,
+        handleChangePagina
     })
 }
